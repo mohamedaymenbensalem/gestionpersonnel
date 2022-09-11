@@ -9,9 +9,14 @@ import {RouterModule} from "@angular/router";
   declarations: [
     HeaderComponent
   ],
-    imports: [
-        CommonModule,
-        RouterModule
-    ]
+  imports: [
+    CommonModule,
+    RouterModule
+  ],
+
+
+  exports: [
+    HeaderComponent
+  ]
 })
 export class CoreModule { }
